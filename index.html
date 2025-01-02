@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>HTML Basics - Expert Level</title>
+   <style>
+       body {
+           font-family: Arial, sans-serif;
+           background-color: #f4f4f4;
+           margin: 0;
+           padding: 0;
+       }
+       header {
+           background-color: #333;
+           color: #fff;
+           padding: 1em 0;
+           text-align: center;
+       }
+       nav {
+           background-color: #444;
+           color: #fff;
+           padding: 0.5em;
+           text-align: center;
+       }
+       nav a {
+           color: #fff;
+           margin: 0 15px;
+           text-decoration: none;
+       }
+       section {
+           padding: 2em;
+           background-color: #fff;
+       }
+       footer {
+           background-color: #333;
+           color: #fff;
+           text-align: center;
+           padding: 1em 0;
+           position: fixed;
+           bottom: 0;
+           width: 100%;
+       }
+       .card {
+           border: 1px solid #ddd;
+           border-radius: 5px;
+           padding: 15px;
+           margin: 10px 0;
+           box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+       }
+   </style>
+</head>
+<body>
+
+   <header>
+       <h1>Welcome to My Website</h1>
+       <p>A simple HTML page with modern styling</p>
+   </header>
+
+   <nav>
+       <a href="#home">Home</a>
+       <a href="#about">About</a>
+       <a href="#contact">Contact</a>
+   </nav>
+
+   <section id="home">
+       <h2>Home</h2>
+       <p>This is the homepage of a basic HTML site. Below are some examples of elements:</p>
+
+       <div class="card">
+           <h3>Card Example</h3>
+           <p>This is a simple card layout with a shadow effect and rounded corners.</p>
+       </div>
+   </section>
+
+   <section id="about">
+       <h2>About</h2>
+       <p>Learn more about this webpage. It's built using modern HTML and CSS practices.</p>
+   </section>
+
+   <section id="contact">
+       <h2>Contact Us</h2>
+       <form action="#" method="POST">
+           <label for="name">Name:</label><br>
+           <input type="text" id="name" name="name" required><br><br>
+
+           <label for="email">Email:</label><br>
+           <input type="email" id="email" name="email" required><br><br>
+
+           <label for="message">Message:</label><br>
+           <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+           <button type="submit">Send Message</button>
+       </form>
+   </section>
+
+   <footer>
+       <p>&copy; 2024 My Website. All rights reserved.</p>
+   </footer>
+
+</body>
+</html>
